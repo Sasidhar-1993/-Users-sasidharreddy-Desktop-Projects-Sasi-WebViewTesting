@@ -40,6 +40,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let url = "http://www.\(addressUrlField.text!)"
         let urlRequest = URLRequest(url: URL(string: url)!)
         webView.load(urlRequest)
+        print("hi")
     }
 }
 
