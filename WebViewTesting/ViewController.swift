@@ -19,7 +19,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let urlRequest = URLRequest(url: URL(string: url)!)
         webView.load(urlRequest)
         self.addressUrlField.delegate = self
-        
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
