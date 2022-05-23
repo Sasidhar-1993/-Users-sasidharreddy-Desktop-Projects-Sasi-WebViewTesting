@@ -11,9 +11,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var webView: WKWebView!
     @IBOutlet weak var addressUrlField: UITextField!
-    
     @IBOutlet weak var NAVIGATION: UINavigationItem!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
